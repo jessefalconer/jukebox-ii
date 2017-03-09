@@ -21,7 +21,7 @@ var parseNote = function(string) {
   var beats;
 
   if (typeof parts[1] === "undefined") {
-    beats = 4;
+    beats = 1;
   } else {
     beats = parseInt(parts[1]);
   }

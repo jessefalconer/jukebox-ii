@@ -29,13 +29,14 @@
         <!-- Play button -->
         <button id="play-button" class="btn btn-lg btn-primary">Play All</button>
       </h1>
-
+      <h5 id="now-playing">Enter a song to play...</h5>
       <!-- Song queue -->
       <ul id="song-queue">
       </ul>
 
       <!-- Song form -->
       <form id='song-form'>
+        <input name="song-name" class="form-control" type="text" placeholder="Enter a song title..."/>
         <input name="notes" class="form-control" type="text" placeholder="Enter song notes..."/>
         <input class="btn btn-default" type="submit" value="Add Song">
       </form>
